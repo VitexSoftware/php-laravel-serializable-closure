@@ -125,7 +125,6 @@ distributions.each { distro ->
         }
     }
 }
-}
 
 parallel branches
 
