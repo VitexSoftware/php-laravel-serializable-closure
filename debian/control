@@ -1,0 +1,21 @@
+Source: php-laravel-serializable-closure
+Section: php
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends:
+ debhelper-compat (= 13)
+Standards-Version: 4.7.0
+Homepage: https://github.com/laravel/serializable-closure
+Vcs-Git: https://github.com/laravel/serializable-closure.git
+Vcs-Browser: https://github.com/laravel/serializable-closure
+Rules-Requires-Root: no
+
+Package: php-laravel-serializable-closure
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ ${misc:Depends},
+ php-common
+Description: Laravel Serializable Closure
+ Provides an easy and secure way to serialize closures in PHP.
+ Used by PHP-DI dependency injection container.
